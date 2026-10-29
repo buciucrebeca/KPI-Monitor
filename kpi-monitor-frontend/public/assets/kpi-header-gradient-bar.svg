@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="6" viewBox="0 0 1440 6" fill="none">
+  <defs>
+    <linearGradient id="kpiHeaderGradient" x1="0" y1="3" x2="1440" y2="3" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#48E5A3"/>
+      <stop offset="50%" stop-color="#00C9D8"/>
+      <stop offset="100%" stop-color="#3478F6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1440" height="6" fill="url(#kpiHeaderGradient)"/>
+</svg>

@@ -1,0 +1,50 @@
+<div class="top-bar">
+  <div class="search-filters">
+    <div class="search-bar">
+      <svg lucideSearch [size]="18" aria-hidden="true"></svg>
+      <input type="search" placeholder="Search KPIs..." />
+    </div>
+    <div class="filters">
+      <div class="filter">
+        <label for="team">Team</label>
+        <select id="team">
+          <option value="">All Teams</option>
+        </select>
+      </div>
+
+      <div class="filter">
+        <label for="category">Category</label>
+        <select id="category">
+          <option value="">All Categories</option>
+        </select>
+      </div>
+
+      <div class="filter">
+        <label for="status">Status</label>
+        <select id="status">
+          <option value="">All Statuses</option>
+        </select>
+      </div>
+    </div>
+  </div>
+  <div class="actions">
+    <button type="button" class="outline-button">
+      <svg lucideDownload [size]="14"></svg>Excel
+    </button>
+
+    <button type="button" class="outline-button">
+      <svg lucideRefreshCw [size]="14"></svg>
+      Refresh Table
+    </button>
+
+    <button type="button" class="outline-button">
+      <svg lucideChartNoAxesColumn [size]="14"></svg>
+      KPIs
+    </button>
+
+    <button type="button" class="primary-button">
+      <svg lucidePlus [size]="14"></svg>
+      Add Data
+    </button>
+  </div>
+</div>

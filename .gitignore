@@ -1,0 +1,24 @@
+# Angular
+node_modules/
+.angular/
+dist/
+
+# Java
+target/
+
+# IDE settings
+.idea/
+.vscode/
+*.iml
+
+# Local configuration
+.env
+.env.*
+!.env.example
+application.properties
+application.yml
+application.yaml
+
+# Generated files
+*.log
+/kpi-monitor-frontend.zip
